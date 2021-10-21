@@ -101,7 +101,7 @@ if __name__ == '__main__':
                 resultado = calcular_area_do_triangulo(5, 8)
                 print(f'A área do triângulo é de {resultado} m²')
             elif resposta == '5':
-                contagem_progressiva(10)
+                contagem_progressiva(12)
             elif resposta == '6':
                 apoiar_candidato('Murphy', 13)
             elif resposta == '7':

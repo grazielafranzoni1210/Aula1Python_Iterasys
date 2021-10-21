@@ -45,6 +45,45 @@ def brincar_de_plim(fim):
             print('{:0>3}'.format(numero))
 
 
+def exibir_dia_da_semana_if(numero):
+    print("Execução com IF")
+    if numero == 1:
+        print('O dia é segunda')
+    elif numero == 2:
+        print('O dia é terça')
+    elif numero == 3:
+        print('O dia é quarta')
+    elif numero == 4:
+        print('O dia é quinta')
+    elif numero == 5:
+        print('O dia é sexta')
+    elif numero == 6:
+        print('O dia é sábado')
+    elif numero == 7:
+        print('O dia é domingo')
+    else:
+        print('Número de dia inválido. Digite um número de 1 a 7')
+
+
+def exibir_dia_da_semana_com_match(numero):
+    print("Execução com MATCH")
+    match numero:
+        case 1:
+            print('O dia é segunda')
+        case 2:
+            print('O dia é terça')
+        case 3:
+            print('O dia é quarta')
+        case 4:
+            print('O dia é quinta')
+        case 5:
+            print('O dia é sexta')
+        case 6:
+            print('O dia é sábado')
+        case 5:
+            print('O dia é domingo')
+
+
 def brincar_de_para_ou_continua():
     resposta = 'C'  # S aqui significa que continua
 
@@ -72,13 +111,19 @@ resultado = calcular_area_do_triangulo(6, 7)
 print(f'A área do triângulo é de {resultado} m²')
 
 # executar uma contagem progressiva
-contagem_progressiva(11)
+contagem_progressiva(12)
 
 # exibir o nome do candidato várias vezes
 apoiar_candidato('Faker', 101)
 
 # brincar de plim
 brincar_de_plim(101)
+
+# exemplo de dia da semana com if - elif - else
+exibir_dia_da_semana_if(5)
+
+# exemplo de dia da semana com match - case
+exibir_dia_da_semana_com_match(1)
 
 # exemplo com while - para ou continua
 brincar_de_para_ou_continua()
