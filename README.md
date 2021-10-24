@@ -13,12 +13,13 @@
 - exibição de dia da semana com match<br>
 
 ### Aula 3<br>
-- criação de dados
-- criação de json
-- ler json
-- adicionar json
-- testar criação do json
-- testar leitura do json
+- criação de dados<br>
+- criação de json<br>
+- ler json<br>
+- adicionar json<br>
+- testar criação do json<br>
+- testar leitura do json<br>
 
-##Tecnologias utilizadas:
-https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white
+##Tecnologias utilizadas:<br>
+![image]({https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white}
+
