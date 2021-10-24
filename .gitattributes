@@ -1,7 +1,5 @@
 $ cat .gitattributes
 
-*.robot linguist-language=Python
 *.json linguist-language=Json
 dist/* linguist-vendored
-.robot linguist-vendored=true
 .json linguist-vendored=true
