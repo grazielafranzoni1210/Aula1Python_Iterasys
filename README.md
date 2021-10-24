@@ -1,7 +1,3 @@
-  <a href="https://github.com/Daniel-Vinicius">
-    <img alt="Feito pela Graziela Franzoni" src="https://img.shields.io/badge/FEITO%   20POR-GRAZIELA%20FRA%Z3%8ONI-green">
-  </a>
-
 > Status do Projeto: Em desenvolvimento :warning:
 
 ### Aula 1<br>
