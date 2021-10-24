@@ -13,3 +13,9 @@
 - exibição de dia da semana com match<br>
 
 ### Aula 3<br>
+- criação de dados
+- criação de json
+- ler json
+- adicionar json
+- testar criação do json
+- testar leitura do json
