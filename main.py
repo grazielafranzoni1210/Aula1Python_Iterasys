@@ -1,4 +1,5 @@
 # 1 - imports / bibliotecas
+import json
 
 # 2 - Classe
 
