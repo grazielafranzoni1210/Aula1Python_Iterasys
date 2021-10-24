@@ -16,7 +16,31 @@ dados['cliente'].append({'nome': 'Ana', 'telefone': '21888888888', 'email': 'ana
 # para fazer a gravação do processo
 def criar_json():
     with open('clientes.json', 'w') as outfile:  # abrindo arquivo com arquivo externo
-        json.dump(dados, outfile)
+        json.dump(dados, outfile, indent=4)
+    with open('clientes2.json', 'w') as outfile:  # abrindo arquivo com arquivo externo
+        json.dump(dados, outfile, indent=4)
+    with open('clientes3.json', 'w') as outfile:  # abrindo arquivo com arquivo externo
+        json.dump(dados, outfile, indent=4)
+
+def ler_e_adicionar_json():
+    with open('clientes2.json') as outfile:
+        dados2 = json.load(outfile)
+        temp = []
+        for registro in dados2['cliente']:
+            print('nome:' + registro['nome'])
+            print('telefone:' + registro['telefone'])
+            print('email:' + registro['email'])
+            print('')
+
+
+            # Salvar na lista
+            temp.append(
+                '\'nome\'' + ':' + '\'' + registro['nome'] + '\',' \
+                + '\'telefone\'' + ':' + '\'' + registro['telefone'] + '\',' \
+                + '\'email\'' + ':' + '\'' + registro['email'] + '\''
+            )
+
+        dados['cliente'].extend(temp)
 
 
 def ler_json():
@@ -37,4 +61,10 @@ def testar_criar_json():
 def testar_ler_json():
     print('Leitura de Json por linha / campo')
     ler_json()
+    print(dados['cliente'])
+
+
+def testar_ler_e_adicionar_json():
+    ler_e_adicionar_json()
+    print('Lista atualizada final')
     print(dados['cliente'])

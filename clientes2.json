@@ -1,1 +1,14 @@
-{"cliente": [{"nome": "Claudio", "telefone": "31777777777", "email": "claudio@hotmail.com"}, {"nome": "Clarice", "telefone": "41333333333", "email": "clarice@yahoo.com"}]}
+{
+    "cliente": [
+        {
+            "nome": "Juca",
+            "telefone": "11999999999",
+            "email": "juca@gmail.com.br"
+        },
+        {
+            "nome": "Ana",
+            "telefone": "21888888888",
+            "email": "ana@gmail.com.br"
+        }
+    ]
+}
