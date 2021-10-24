@@ -1,5 +1,3 @@
-> Status do Projeto: Em desenvolvimento :warning:
-
 ### Aula 1<br>
  - estrutura if, elseif, else e for<br>
  - cálculo da área do retângulo<br>
@@ -21,3 +19,4 @@
 - adicionar json<br>
 - testar criação do json<br>
 - testar leitura do json<br>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
