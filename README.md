@@ -1,4 +1,6 @@
-﻿### Aula 1<br>
+> Status do Projeto: Em desenvolvimento :warning:
+
+### Aula 1<br>
  - estrutura if, elseif, else e for<br>
  - cálculo da área do retângulo<br>
  - cálculo da área do quadrado<br>
@@ -19,8 +21,3 @@
 - adicionar json<br>
 - testar criação do json<br>
 - testar leitura do json<br>
-
-##Tecnologias utilizadas:<br>
-<img src="{https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white}" />
-![image]({https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white})
-
