@@ -20,3 +20,10 @@
 - testar criação do json<br>
 - testar leitura do json<br>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Tecnologias utilizadas:<br>
+Nome                     | Versão
+-------------------------|-------
+Pycharm Community Edition|2.2
+Pytest                   |6.2.5
+SimpleJson               |3.17.5
+Python                   |3
