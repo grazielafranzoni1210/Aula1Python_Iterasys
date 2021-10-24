@@ -23,7 +23,7 @@
 ### Tecnologias utilizadas:<br>
 Nome                     | Versão
 -------------------------|-------
-	[![Pycharm Community Editon](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)](https://github.com/alexandresanlim/Badges4-README.md-Profile#-ide-)]|2.2
+Pycharm Community Edition|2.2
 Pytest                   |6.2.5
 SimpleJson               |3.17.5
 Python                   |3
