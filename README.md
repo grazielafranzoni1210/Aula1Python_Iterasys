@@ -21,5 +21,6 @@
 - testar leitura do json<br>
 
 ##Tecnologias utilizadas:<br>
+<img src="{https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white}" />
 ![image]({https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white})
 
